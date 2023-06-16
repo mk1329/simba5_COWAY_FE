@@ -56,7 +56,7 @@ ROOT_URLCONF = 'coway.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'coway' 'templates')],
+        'DIRS': [os.path.join(BASE_DIR, 'coway', 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
