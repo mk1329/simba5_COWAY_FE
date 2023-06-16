@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+/* #wrap {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 18vh;
+} */
+
+body{
+    background-color: #FFF7E8;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: 'SUIT-Regular';
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#main_nav{
+    height: 5vh;
+    background-color: #FFC148;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#main_nav img{
+    height: 5vh;
+    padding-top: 5px;
+}
+/* .visited{
+    font-weight: bold;
+} */
+/* 윗부분 base.css로 옮김 */
+#title{
+    height: 15vh;
+    font-size: 1.6em;
+    font-weight: bold;
+    padding: 30px 40px;
+}
+#title p{
+    font-size: 0.6em;
+    font-weight: 100;
+}
+
+#main_img{
+    height: 25vh;
+    width: 80vw;
+    margin: 30px 40px 20px 40px;
+}
+#main_img img{
+    height: 100%;
+    width: 100%;
+}
+
+#main_btn{
+    height: 35vh;
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+}
+#main_btn div{
+    width: 75%;
+    height: 70px;
+    font-size: 1.6em;
+    text-align: center;
+    padding-top: 12px;
+    background-color: white;
+    border: 5px solid #FFC148;
+    border-radius: 20px;
+}
+
+footer{
+    width: 100%;
+    font-size: 0.7em;
+    position: absolute;
+    bottom: 0;
+    padding: 15px 15px;
+    background-color: #FFC148;
+}
