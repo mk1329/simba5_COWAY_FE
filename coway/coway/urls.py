@@ -20,4 +20,7 @@ from main import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.mainpage, name="mainpage"),
+    path('/conv', views.convpage, name="convpage"),
+    path('/convinfo', views.convinfopage, name="convinfopage"),
+    path('/convmap', views.convmappage, name="convmappage"),
 ]
