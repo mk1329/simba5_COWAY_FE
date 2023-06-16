@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/stamp/stamp_rest.css' %}">
+
+<section id="title">
+    <div class="back_icon"> <a href="../simba_main/main.html"><i class="fas fa-chevron-left"></i></a></div>
+</section>
+
+<section id="stp_nav">
+    <div> <a href="./stamp_cafe.html">카페</a></div>
+    <div> <a href="./stamp_conv.html">편의점</a></div>
+    <div> <a href="./stamp_std.html">스터디존</a></div>
+    <div class="visited"> <a href="./stamp_rest.html">식당</a></div>
+</section>
+
+<section id="stp_board">
+    <div class="line1"><i class="fas fa-circle"></i> <i class="far fa-circle"></i>
+        <i class="far fa-circle"></i> <i class="far fa-circle"></i> <i class="far fa-circle"></i>
+    </div>
+    <div class="line2"><i class="far fa-circle"></i> <i class="far fa-circle"></i>
+        <i class="far fa-circle"></i> <i class="far fa-circle"></i> <i class="far fa-circle"></i>
+    </div>
+    <div class="line3"><i class="far fa-circle"></i> <i class="far fa-circle"></i>
+        <i class="far fa-circle"></i> <i class="far fa-circle"></i> <i class="far fa-circle"></i>
+    </div>
+    <div class="line4"><i class="far fa-circle"></i> <i class="far fa-circle"></i>
+        <i class="far fa-circle"></i> <i class="far fa-circle"></i> <i class="far fa-circle"></i>
+    </div>
+</section>
+
+<section id="stp_btn">
+    <div>도장 콕콕</div>
+</section>
+
+{% endblock %}
