@@ -23,4 +23,7 @@ urlpatterns = [
     path('/conv', views.convpage, name="convpage"),
     path('/convinfo', views.convinfopage, name="convinfopage"),
     path('/convmap', views.convmappage, name="convmappage"),
+    path('/easyroad', views.easyroadpage, name="easyroadpage"),
+    path('/roadchoice', views.roadchoicepage, name="roadchoicepage"),
+    path('/shortroad', views.shortroadpage, name="shortroadpage"),
 ]
